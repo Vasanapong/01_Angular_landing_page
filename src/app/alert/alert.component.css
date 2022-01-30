@@ -1,0 +1,31 @@
+.alert{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    background-color: rgb(18, 18, 18);
+    z-index: 3;
+}
+
+.alert > button{
+    background: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 4vw;
+    border-radius: 2px;
+}
+
+@media screen and (min-width:1024px) {
+    .alert{
+        font-size: 6vw;
+    }
+    .alert > button{
+        font-size: 2vw;
+    }
+}

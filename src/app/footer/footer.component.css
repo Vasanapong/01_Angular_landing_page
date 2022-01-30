@@ -1,0 +1,70 @@
+.footer{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.footer > div{
+    overflow: hidden;
+}
+
+.footer__title{
+    font-size: 9vw;
+    overflow: hidden;
+}
+
+.footer__location{
+    font-size: 6vw;   
+    overflow: hidden;
+}
+
+.footer__location-sub{
+    font-size: 4vw;
+    overflow: hidden;
+}
+
+.footer__hours{
+    font-size: 6vw;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.footer__hours-sub{
+    font-size: 4vw;
+    overflow: hidden;
+}
+
+@media screen and (min-width:800px) {
+    .footer{
+        height: 30vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer__title{
+        font-size: 3vw;
+    }
+    
+    .footer__location{
+        font-size: 2vw;
+    }
+    
+    .footer__location-sub{
+        font-size: 1.2vw;
+    }
+    
+    .footer__hours{
+        font-size: 2vw;
+        margin-top: 0px;
+    }
+    
+    .footer__hours-sub{
+        font-size: 1.2vw;
+    }
+}

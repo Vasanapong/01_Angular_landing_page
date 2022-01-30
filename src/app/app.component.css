@@ -1,0 +1,19 @@
+.logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 5vw;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.logo > a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+    .logo{
+        font-size: 3vw;
+    }
+}

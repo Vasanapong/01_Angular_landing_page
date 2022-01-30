@@ -1,0 +1,7 @@
+<div class="logo" *ngIf="!setAlert"><a href="#header">Whassabar</a></div>
+<app-alert *ngIf="setAlert" [(setAlert)]="setAlert"></app-alert>
+<app-header [(setAlert)]="setAlert" *ngIf="!setAlert"></app-header>
+<app-article-community *ngIf="!setAlert"></app-article-community>
+<app-article-activity *ngIf="!setAlert"></app-article-activity>
+<app-article-cocktail *ngIf="!setAlert"></app-article-cocktail>
+<app-footer *ngIf="!setAlert"></app-footer>

@@ -1,0 +1,45 @@
+.article-activity{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-activity > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    filter: brightness(55%) saturate(2) contrast(80%);
+    z-index: -1;
+}
+
+.article-activity__detail-box{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-activity__detail-box > div{
+    margin: 2px 0px;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.article-activity__detail-item1{
+    font-size: 20vw;
+}
+
+.article-activity__detail-item1 > span{
+    position: relative;
+    top: -8px;
+}
+
+@media screen and (min-width:1280px) {
+    .article-activity__detail-item1{
+        font-size: 10vw;
+    }
+}
